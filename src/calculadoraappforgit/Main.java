@@ -2,6 +2,7 @@ package calculadoraappforgit;
 
 /**
  * Clase principal de la aplicación CalculadoraApp
+ * añadiendo más comentarios
  * @author mbella
  */
 public class Main {
