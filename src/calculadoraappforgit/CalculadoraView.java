@@ -69,4 +69,11 @@ public class CalculadoraView extends JFrame{
         this.display.setText(value);
     }
     
+    public void addListeners(CalculadoraController controller){
+        for (JButton button : buttons){
+            button.addActionListener(controller);
+        }
+
+    }
+    
 }
