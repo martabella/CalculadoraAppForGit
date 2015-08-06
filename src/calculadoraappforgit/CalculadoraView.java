@@ -43,7 +43,7 @@ public class CalculadoraView extends JFrame{
         pane.setLayout(new BorderLayout(8, 8));
 
         //Display JLabel
-        display = new JLabel("");
+        display = new JLabel(Float.toString(model.getDisplay()));
         display.setHorizontalAlignment(SwingConstants.RIGHT);
 	display.setOpaque(true);
 	display.setBackground(Color.WHITE); 
